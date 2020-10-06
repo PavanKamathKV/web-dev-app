@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="../explore_page/style2.css">
+</head>
+<body>
+	<!--use get method-->
+	<form method="GET">
+	<header>
+
+	Enter your First Name:<input type="text" name="firstname"><br><br>
+	Enter your last Name:<input type="text" name="lastname"><br><br>
+	Enter DOB:<input type="date" name="dob"><br><br>
+	Enter email ID:<input type="email" name= "email" required><br><br>
+	Enter New Passord:<input type="password" name="password" minlength="8"><br><br>
+	Education:<br><br>
+	<select>
+		<option value="MCA" name="mca">MCA</option>
+		<option value="BE" name="be">BE</option>
+		<option value="Other" name="other">Other</option><br>
+	</select><br>
+	Gender:<br>
+	<input type="radio" name="gender" name="male">Male<br>
+	<input type="radio" name="gender"name="female">Female<br>
+	<input type="radio" name="gender" name="other">Other<br>
+	Languages:<br>
+	<input type="checkbox" name="c">C<br><br>
+	<input type="checkbox" name="java">Java<br><br>
+	<input type="checkbox" name="python">Python<br><br>
+	<input type="checkbox" name="go">Go<br><br>
+</header><br><br>
+	<input type="submit" value="Click to Register">
+	<input type="Reset">
+	<a href="../home_page/index.html">Click to return to main page</a>
+</body>
+</html>
